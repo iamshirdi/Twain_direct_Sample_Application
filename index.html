@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scanner App</title>
+    
+    <script src="scripts.js"></script>
+    <style>
+      #main {
+        position: absolute;
+        /* top: 15%; */
+        left: 50%;
+        /* transform: translate(-50%, 50%); */
+        transform: translate(-50%, 0%);
+      }
+      #selectScanners {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="root">
+        <div id="selectScanners"></div>
+        <div id="offlineScanners"></div>
+      </div>
+
+      <button  onclick="location.href='https://drive.google.com/drive/folders/17e2PasrNQrsnBZe63MT62yAVkqatIOMV?usp=sharing'">Setup</button>
+      <button onclick="scannersList()" id="selectButton">Select</button>
+      <button disabled id="scanButton">Scan</button>
+      <button disabled id="stopButton">Stop</button>
+      <button disabled id="closeButton">Close</button>
+    </div>
+  </body>
+</html>

@@ -1,2 +1,2 @@
 # Twain_direct_Sample_Application
-Twain Direct API Sample
+Twain Direct API Sample Implementation

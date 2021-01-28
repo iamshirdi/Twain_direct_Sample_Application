@@ -1,0 +1,65 @@
+This is only sample code. It contains lot of bugs which not rectified. written only for testing
+
+Pease refer to twain direct documentation for complete implementation/understanding
+
+
+
+
+no cors issue - by pass- disable security- temporary solution
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp
+
+
+
+certificate invalid:- temporary solution by pass
+https://" + hosts[0] + ".local:34034/privet/info" and click proceed anyway to overcome certificae error
+
+Your connection is not private
+Attackers might be trying to steal your information from laptop-81umpbdj.local (for example, passwords, messages, or credit cards). Learn more
+NET::ERR_CERT_COMMON_NAME_INVALID
+Subject: LAPTOP-81UMPBDJ.local
+
+Issuer: TWAIN Direct Self-Signed Root Authority for LAPTOP-81UMPBDJ
+
+Expires on: Sep 6, 2022
+
+Current date: Sep 14, 2020
+
+PEM encoded chain:
+-----BEGIN CERTIFICATE-----
+MIIDAjCCAeqgAwIBAgIIenaZEe6rlDowDQYJKoZIhvcNAQELBQAwRjFEMEIGA1UE
+Aww7VFdBSU4gRGlyZWN0IFNlbGYtU2lnbmVkIFJvb3QgQXV0aG9yaXR5IGZvciBM
+QVBUT1AtODFVTVBCREowHhcNMjAwOTA2MDAwMDAwWhcNMjIwOTA2MDAwMDAwWjAg
+MR4wHAYDVQQDDBVMQVBUT1AtODFVTVBCREoubG9jYWwwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQDgB/CR3F+idm35xSb+nUdtsnVcalkc/Jlk2XRp+A24
+QujPbs1c10gtCzQjaBPmPnLb2smXT86gPLOncvt8WNCcDdxwscLxwg3TRMUQbyso
+fiwhnHGauF2NOk97gkM5oU1se/pOyPh/5weegQ9tF58enfEnZ/+1zvTRHSM9cRAI
+COXQgcSAQSGMmYIgtZ3/gf4klKjjayZb0NzdRMH7gxBLGxmCfQZHSxgFqlRxDY6Y
+2/7K8rj0d+/aw9pWAvdO3MlARuj5f2cRkTjx2MawtTopOVF3Nxdw/3qunuIxhtEx
+hwX+K4xZPdqYnvHcVm0S4fpltI1qC5tnm2PbPWl5nfJ7AgMBAAGjGjAYMBYGA1Ud
+JQEB/wQMMAoGCCsGAQUFBwMBMA0GCSqGSIb3DQEBCwUAA4IBAQBREG23qNJFCGo5
+x1Q2PwRC7/wd5ShSgo+n7nWn6iNgx5d1GlxR7D84qPOkYHZRQPOtGOieO8nJXH+E
+9hY2p3Vktg17j+ziS8oBRsdpfRevzqsqYZ1s6W4LuxE89AonqIFrE2GWAZ+p6vnT
+A00TxX+SI70/aJZsACkOIVEt+iydZ/LK1nOVru2q2Q6uaCkcq3k9nm0uelR/NTW4
+PH6xeb5OfBICAOB0lmti2sFaIPiaK0jxY5D8xJi0ezPA0QPfKXgBMLlGwn3WJpUH
+/Z7YjLt84bY629EE2spd6UavuIYk1h+g547P4ymc0++LhKV9tWQC421omYeYCAyJ
+9wFgA9oA
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+MIIDDDCCAfSgAwIBAgIIetVOJ+77CgcwDQYJKoZIhvcNAQELBQAwRjFEMEIGA1UE
+Aww7VFdBSU4gRGlyZWN0IFNlbGYtU2lnbmVkIFJvb3QgQXV0aG9yaXR5IGZvciBM
+QVBUT1AtODFVTVBCREowHhcNMjAwOTA2MDAwMDAwWhcNMjIwOTA2MDAwMDAwWjBG
+MUQwQgYDVQQDDDtUV0FJTiBEaXJlY3QgU2VsZi1TaWduZWQgUm9vdCBBdXRob3Jp
+dHkgZm9yIExBUFRPUC04MVVNUEJESjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBALaazg9HQtXTG1RWGbT6vwQnK374kKL+iiZ8iZ2QS75ZTQf8V/lDLh1R
+K6PCD/5mZw12OcWY4bsVpEksPSwAm0t98xXipWDtBwEzmVfHSHmGAt6I2JipUF0z
+yA3CYJHgBSPrzLoTgm310xM6bRgIHZCwzHt3MpmmT3Y8v7uIuodi97h4gpXGfjdf
+VrIQfGDBOH21rDbS4Dbh0d8X3rjVLLg+TG35h4if6PtjGxw5imXCSBeNYxuagO+p
+D31zcVGA9ECyaPCjZ6eLf0aU4gD/A8guOek/o+sxQNoRBb0IeXm2uxSHOCxQTEIh
+ArXzQESa7iYvWPA1YWF/VlnVE8qEDL8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+Jk4mrgxEWXMBJfOT4MPXExAL+37NNbnq2/N7Ywqp26dJ+kqY3wwpsHgdbITnwLaf
+BClmZ+NdLm1DNGfSu1tVDNlFZYyAjEcYECZqv7ma61J5ugVYrG97Q8ysITbS8dNP
+3DIHyo9eRbW/GgXP7xQQNJHrXf7uI4nrZlJy62OHV4avm9MY3FKCeVMkv3XEDl+V
+9anTPoID/798lQsayHs9YzOtmbDJoBwLtxaO2FZ/ul3WU9gWKu9gIHasP8rPbU7k
+wg7Qn7J/jlw7H+Gx5SBzCGXnYvqL6hKtee+ZDvXl1aYN8Z6uZRxUU7pApNtHNYe0
+FL3jS27K0r59Wwc1rdKKpA==
+-----END CERTIFICATE-----

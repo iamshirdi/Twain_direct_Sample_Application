@@ -188,7 +188,7 @@ function scannerSession(hst) {
         };
         console.log(options);
         fetch(
-          "https://LAPTOP-81UMPBDJ.local:34034/privet/twaindirect/session",
+          "https://"+hosts[0]+".local:34034/privet/twaindirect/session",
           options
         )
           .then((response) => response.json())

@@ -1,4 +1,5 @@
-I have developed a sample app using Twain direct protcol(Bridge App) instead of twain commands C# app (self written) hoping my App need not be changed in future when Scanners are directly Twain direct compatible (without Twain bridge). It also supports accesing scanner remotely (lan,cloud- programmatic interface only)
+# Twain Direct API Sample Implmentation
+- I have developed a sample app using Twain direct protcol(Bridge App) instead of twain commands C# app (self written) hoping my App need not be changed in future when Scanners are directly Twain direct compatible (without Twain bridge). It also supports accesing scanner remotely (lan,cloud- programmatic interface only)
 <br>
 <br>
 

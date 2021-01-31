@@ -8,7 +8,7 @@ I have developed a sample app using Twain direct protcol(Bridge App) instead of 
 <br>
 
 # Twain_direct_Sample_Application
-- Twain Direct API Sample Implementation in Pure JS, Notebook python
+- Twain Direct API Sample Implementation in Pure JS(index,script for easy integration in any programming language), Notebook python (for interactive view of process/steps)
 - Please do refer Twain direct website for updated and best explaination
 https://www.twaindirect.org/
 - Using the bridge we should be able to make any legacy twain scanner to twain direct scanner

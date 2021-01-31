@@ -8,7 +8,6 @@
 </p>
 <br>
 
-# Twain_direct_Sample_Application
 - Twain Direct API Sample Implementation in Pure JS(index,script for easy integration in any programming language), Notebook python (for interactive view of process/steps)
 - Please do refer Twain direct website for updated and best explaination
 https://www.twaindirect.org/

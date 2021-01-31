@@ -1,4 +1,11 @@
-I have developed a sample app using Twain direct protcol(Bridge App) instead of twain commands C# app (self written) hoping my App need not be changed in future when Scanners are directly Twain direct compatible (without Twain bridge)
+I have developed a sample app using Twain direct protcol(Bridge App) instead of twain commands C# app (self written) hoping my App need not be changed in future when Scanners are directly Twain direct compatible (without Twain bridge). It also supports accesing scanner remotely (lan,cloud- programmatic interface only)
+<br>
+<br>
+
+<p align="center">
+  <img width="460" height="300" src="twain direct screenshot.png">
+</p>
+<br>
 
 # Twain_direct_Sample_Application
 - Twain Direct API Sample Implementation in Pure JS, Notebook python

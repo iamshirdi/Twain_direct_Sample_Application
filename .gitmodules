@@ -1,0 +1,3 @@
+[submodule "Twain-Scanner-App"]
+	path = Twain-Scanner-App
+	url = https://github.com/iamshirdi/Twain-Scanner-App.git
